@@ -24,7 +24,8 @@ export const homeObjTwo = {
   buttonLabel: 'Learn More',
   imgStart: '',
   img: 'images/team_fe_02.png',
-  alt: 'Febreath'
+  alt: 'Febreath',
+  linkto: '/about'
 };
 
 export const homeObjThree = {
@@ -39,7 +40,7 @@ export const homeObjThree = {
   imgStart: 'start',
   img: 'images/xray.png',
   alt: 'CXR-Covid19 test',
-  linkto: '/test'
+  linkto: '/cxrtest'
 };
 
 export const homeObjFour = {
@@ -53,5 +54,6 @@ export const homeObjFour = {
   buttonLabel: '자세히 알아보기',
   imgStart: 'start',
   img: 'images/presentation.png',
-  alt: 'Vault'
+  alt: 'Vault',
+  linkto: '/visualization'
 };
