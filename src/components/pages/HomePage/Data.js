@@ -9,7 +9,8 @@ export const homeObjOne = {
   buttonLabel: '녹음하기',
   imgStart: '',
   img: 'images/record_02.png',
-  alt: 'Record'
+  alt: 'Record',
+  linkto: '/record'
 };
 
 export const homeObjTwo = {
@@ -37,7 +38,8 @@ export const homeObjThree = {
   buttonLabel: 'Start Now',
   imgStart: 'start',
   img: 'images/xray.png',
-  alt: 'CXR-Covid19 test'
+  alt: 'CXR-Covid19 test',
+  linkto: '/test'
 };
 
 export const homeObjFour = {

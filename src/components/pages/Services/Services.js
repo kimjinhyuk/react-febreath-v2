@@ -8,7 +8,6 @@ function Services() {
     <>
       {/* <Intro /> */}
       <HeroSection {...homeObjOne} />
-      <HeroSection {...homeObjThree} />
     </>
   );
 }
