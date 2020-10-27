@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { BrowserRouter, Route, Link } from 'react-router-dom';
+// import { BrowserRouter, Route, Link } from 'react-router-dom';
 import HeroSection from '../../HeroSection';
 import { homeObjOne } from './Data';
 

@@ -5,6 +5,8 @@ import './Navbar.css';
 import { MdFingerprint } from 'react-icons/md';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { IconContext } from 'react-icons/lib';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGoogle } from "@fortawesome/free-brands-svg-icons";
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -48,15 +50,15 @@ function Navbar() {
                   Home
                 </Link>
               </li>
-              {/* <li className='nav-item'>
+              <li className='nav-item'>
                 <Link
-                  to='/services'
+                  to='/about'
                   className='nav-links'
                   onClick={closeMobileMenu}
                 >
-                  Services
+                  About
                 </Link>
-              </li> */}
+              </li>
               <li className='nav-item'>
                 <Link
                   to='/record'
@@ -69,7 +71,7 @@ function Navbar() {
               <li className='nav-btn'>
                 {button ? (
                   <Link to='/sign-up' className='btn-link'>
-                    <Button buttonStyle='btn--outline'>SIGN UP</Button>
+                    <Button buttonStyle='btn--outline'><FontAwesomeIcon icon={faGoogle} /> 로그인</Button>
                   </Link>
                 ) : (
                   <Link to='/sign-up' className='btn-link'>

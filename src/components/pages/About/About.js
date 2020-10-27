@@ -3,7 +3,7 @@ import HeroSection from '../../HeroSection';
 import { homeObjOne, homeObjThree } from './Data';
 
 
-function SignUp() {
+function About() {
   return (
     <>
       <HeroSection {...homeObjOne} />
@@ -12,4 +12,4 @@ function SignUp() {
   );
 }
 
-export default SignUp;
+export default About;
