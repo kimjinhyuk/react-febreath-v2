@@ -8,6 +8,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/pages/Footer.js/Footer';
 import Record from './components/pages/Record/Record';
+import CxrTest from './components/pages/CxrTest/CxrTest';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         {/* <Route path='/services' component={Services} /> */}
         <Route path='/record' component={Record} />
         <Route path='/sign-up' component={SignUp} />
+        <Route path='/cxrtest' component={CxrTest} />
       </Switch>
       <Footer />
     </Router>
