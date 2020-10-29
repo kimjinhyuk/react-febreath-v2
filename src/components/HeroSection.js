@@ -1,5 +1,5 @@
 import React from 'react';
-import './HeroSection.css';
+import '../styles.css';
 import { Button } from './Button';
 import { Link } from 'react-router-dom';
 
